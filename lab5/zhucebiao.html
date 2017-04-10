@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册表</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<center>用户注册表</center>
+<table cellspacing="0" cellpadding="0" border="1" align="center" width="600" height="1000">
+<form>
+<tr>
+<th align="left">用户名:</th>
+<td colspan="3" align="left"><input type="text" name="name"></td>
+</tr>
+<tr>
+		<th  align="center">密码:</th>
+		<td colspan="3" align="left">
+			<input type="password" name=""><br/>
+		</td>
+	</tr>
+	<tr>
+		<th  align="center">确认密码:</th>
+		<td colspan="3" align="left">
+			<input type="password" name=""><br/>
+		</td>
+	</tr>
+
+<tr>
+		<td  align="center">性别:</td>
+		<td colspan="3" align="left">
+        	<input type="radio" name="sex" />女
+        	<input type="radio" checked="checked" name="sex" />男
+		</td>
+	</tr>
+
+<th align="left">生日:</th>
+<td colspan="3" align="left"><select name="nianli">
+	<option value="first">公历</option>
+	<option value="two">农历</option></select>
+	<select name="nian">
+	<option value="first">2016</option>
+	<option value="two">2015</option>
+	<option value="three">2014</option>
+	<option value="four">2013</option>
+	<option value="five">2012</option>
+	<option value="six">2011</option></select>
+	<select name="yue">
+	<option value="first">1</option>
+	<option value="two">2</option>
+	<option value="three">3</option>
+	<option value="four">4</option>
+	<option value="five">5</option>
+	<option value="six">6</option>
+	<option value="seven">7</option>
+	<option value="eight">8</option>
+	<option value="nine">9</option>
+	<option value="ten">10</option>
+	<option value="eleven">11</option>
+	<option value="twelve">12</option></select>
+	<select name="ri">
+	<option value="first">1</option>
+	<option value="two">2</option></select>
+	</td>
+</tr>
+<tr>
+<th align="left">所在地:</th>
+<td colspan="3"><select name="guojia">
+	<option value="first">中国</option>
+	<option value="two">法国</option></select>
+	<select name="sheng">
+	<option value="first">河北</option>
+	<option value="two">北京</option>
+	<option value="three">山西</option>
+	<option value="four">山东</option>
+	</select>
+	<select name="市">
+	<option value="first">石家庄</option>
+	<option value="two">唐山</option>
+	<option value="three">衡水</option>
+	<option value="four">邯郸</option>
+	<option value="five">郴州</option>
+	
+	</select>
+	
+	</td>
+</tr>
+<tr>
+<th align="left">验证码:</th>
+<td colspan="3" align="left"><input type="text" name="password"> <img src="yanzhengma.jpg"   width="130" height="50"></td>
+</tr>
+<tr>
+<th align="left">证件类型:</th>
+<td colspan="3"><select name="shenfenzheng">
+	<option value="first">身份证</option>
+	<option value="two">护照</option></select>
+</td>
+</tr>
+<tr>
+<th align="left">证件号:</th>
+<td colspan="3" align="left"><input type="text" name="number"></td>
+</tr>
+<tr>
+<th align="left">爱好:</th>
+<td colspan="3">
+<input type="checkbox"  name="like[]" value="音乐">音乐
+<input type="checkbox" checked="checked" name="like[]" value="读书">读书
+<input type="checkbox" checked="checked" name="like[]" value="跳舞">跳舞
+<input type="checkbox"  name="like[]" value="下棋">下棋
+<input type="checkbox"  name="like[]" value="其他">其他</td>
+</tr>
+<tr>
+<th align="left" rowspan="3" >说明:</th>
+<td colspan="3" rowspan="3"><input type="text" name="xinxi"></td>
+</tr>
+<tr>
+
+
+</tr>
+<tr>
+
+
+</tr>
+<tr>
+<th align="left">上传头像:</th>
+<td colspan="3"><input type="file" name="headimg"></td>
+
+</tr>
+<tr>
+<th align="center" colspan="4">
+<input type="submit" name="submit" value="提交"/>
+<input type="reset" name="reset" value="重置"/>
+<input type="button" name="button" value="按钮"/></th>
+</tr>
+</form></table>
+</body>
+</html>
